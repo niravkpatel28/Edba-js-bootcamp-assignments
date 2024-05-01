@@ -1,11 +1,11 @@
 ## Day 3 : Random Expense Generator
 
 In the exercise, the learner will practice the concept of using function
-constructor for generating objects with consistent structure. In this exercise,
-the learner will create following functions
+constructor for generating objects with consistent structure. The learner will
+create following functions
 
 1.  First function is a function constructor, named Expense. This function will
-    generate and object of type Expense, with the following structure
+    generate an object of type Expense, with the following structure
 
     ```****
 
@@ -33,8 +33,10 @@ the learner will create following functions
     function will take an integer as input and return a single array containing
     random expenses. The number of elements in this array is equal to the input
     integer. You can use any random logic to chose category of expense, amount
-    and description. Hint: use [Faker.js](https://fakerjs.dev/guide/usage.html)
-    to generate description and random amount.
+    and description.
+
+    Hint: use [Faker.js](https://fakerjs.dev/guide/usage.html) to generate
+    description and random amount.
 
 For generating unique ids for each expense, the learner can use the following
 function. In the function below `generateUniqueId({prefix:"exp"})` will generate
