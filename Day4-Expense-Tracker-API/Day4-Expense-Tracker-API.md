@@ -1,4 +1,4 @@
-## Day 4 : REST API using Array
+## Day 4 : REST API using Array Functions
 
 Array and Array functions
 
